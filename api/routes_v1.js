@@ -39,7 +39,7 @@ routes.get('/hello/*', function (req, res, next) {
 routes.get('/info', function (req, res, next) {
 	res.status(200);
 	res.json({
-		message: 'de volgende services zijn aanwezig:',
+		message: 'de onderstaande services zijn aanwezig:',
 		endpoint1: '/hello',
 		endpoint2: '/hello/error'
 	});
